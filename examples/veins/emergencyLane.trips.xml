@@ -1,0 +1,18 @@
+<!-- generated on 2021-05-17 00:30:10.737654 by randomTrips.py v1_6_0+0003-190709904e
+  options: -n C:/Users/iracca/src/veins-veins-5.1/examples/veins/emergencyLane.net.xml -e 10 -o C:/Users/iracca/src/veins-veins-5.1/examples/veins/emergencyLane.trips.xml <doubleminus>validate
+-->
+<routes>
+
+    <vType id="emergency" vClass="emergency" guiShape='emergency'/>
+    <vType id="passenger" vClass="passenger" maxSpeed='7'/>
+    
+    <route edges="gneE9" color="yellow" id="route_0"/>
+
+    <vehicle id="vehicle_1" type="passenger" depart="0.00" route="route_0" departLane="1"/>
+    <vehicle id="vehicle_2" type="passenger" depart="7.90" route="route_0" departLane="0"/>
+    <vehicle id="vehicle_3" type="passenger" depart="10.00" route="route_0" departLane="1"/>
+    <vehicle id="vehicle_4" type="passenger" depart="19.80" route="route_0" departLane="0"/>
+    <vehicle id="vehicle_5" type="passenger" depart="22.00" route="route_0" departLane="1"/>
+    <vehicle id="vehicle_0" type="emergency" depart="45.00" route="route_0" departLane="1" arrivalLane="1"/>
+
+</routes>
